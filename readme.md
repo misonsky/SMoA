@@ -48,7 +48,7 @@ cpeft/mapping.py          # Maps SMOA to SMoAConfig and SMoAModel
 cpeft/tuners/__init__.py  # Exports SMoA classes
 models/get_models.py      # get_smoa_models helper
 train.py             # Main training entry
-run_train_smoa.sh         # Convenience script for SMoA training
+run_train.sh         # Convenience script for SMoA training
 ```
 
 ## Running SMoA
