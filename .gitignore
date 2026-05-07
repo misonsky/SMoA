@@ -1,0 +1,33 @@
+# Python cache/build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Training outputs and checkpoints
+results*/
+outputs*/
+checkpoints*/
+wandb/
+*.log
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# OS/editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Large local datasets/models, keep directory placeholders if needed
+data_file/*
+!data_file/.gitkeep

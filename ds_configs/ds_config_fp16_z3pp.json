@@ -1,0 +1,15 @@
+{
+  "train_micro_batch_size_per_gpu": "auto",
+  "zero_optimization": {
+    "stage": 3,
+    "zero_quantized_weights": true,
+    "zero_hpz_partition_size": 16,
+    "zero_quantized_gradients": true,
+
+    "contiguous_gradients": true,
+    "overlap_comm": true
+  },
+  "fp16": {
+    "enabled": true
+  }
+}
